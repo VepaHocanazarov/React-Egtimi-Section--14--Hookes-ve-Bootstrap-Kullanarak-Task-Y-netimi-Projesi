@@ -1,0 +1,17 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+header{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    padding: 16px 32px;
+
+}
