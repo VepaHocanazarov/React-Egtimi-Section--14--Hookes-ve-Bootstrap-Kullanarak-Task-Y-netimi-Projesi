@@ -2,7 +2,8 @@ import { useState } from 'react';
 import './App.css';
 import CreateTask from './CreateTask';
 import Header from './Header';
-import Task from "./Task"
+import Task from "./Task";
+import Footer from './Footer';
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Footer/>
       <CreateTask onAdd={addTask} />
       <div className='container'>
         <div className="row my-5">
